@@ -45,5 +45,11 @@ public class App {
     		//String c = cls.getName();
     		System.out.println(cls);
     	});
+    	
+    	Object o = new Object() {
+    		public void m() {
+    			System.out.println("inclosing object");
+    		}
+    	};
     }
 }
